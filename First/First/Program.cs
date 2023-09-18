@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿internal class Program
+{
+    public static bool Hola { get; private set; }
+
+    private static void Main(string[] args)
+    {
+        Console.WriteLine(Hola);
+    }
+}
