@@ -1,9 +1,10 @@
-﻿internal class Program
+﻿internal partial class Program
 {
-    public static bool Hola { get; private set; }
+    public static bool Ho { get; private set; }
 
     private static void Main(string[] args)
     {
-        Console.WriteLine(Hola);
+        Console.WriteLine(Ho);
     }
 }
+
